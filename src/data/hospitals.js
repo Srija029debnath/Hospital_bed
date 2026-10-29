@@ -1,0 +1,36 @@
+export const hospitals = [
+  {
+    id: 1,
+    name: "District Government Hospital",
+    location: "Kolkata",
+    distance: "2.5 km",
+    phone: "+91 9876543210",
+    departments: ["General Medicine", "Cardiology", "Pediatrics"],
+    doctorsAvailable: 18,
+    beds: {
+      total: 250,
+      occupied: 190,
+      available: 60,
+      icu: 8,
+      general: 40,
+      pediatric: 12,
+    },
+  },
+  {
+    id: 2,
+    name: "State Medical College Hospital",
+    location: "Howrah",
+    distance: "5.8 km",
+    phone: "+91 9123456780",
+    departments: ["Emergency", "Orthopedics", "Surgery", "ICU"],
+    doctorsAvailable: 32,
+    beds: {
+      total: 500,
+      occupied: 430,
+      available: 70,
+      icu: 15,
+      general: 45,
+      pediatric: 10,
+    },
+  },
+];
